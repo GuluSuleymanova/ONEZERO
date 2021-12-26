@@ -1,0 +1,222 @@
+.nav_top {
+  background-color: #f2f2f2;
+}
+
+.nav_top .free {
+  font-size: 13px;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  color: #2d2d2d;
+  text-decoration: none;
+}
+
+.nav_top .nav_all {
+  font-size: 13px;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.nav_top .nav_all .nav-link {
+  color: #2d2d2d;
+}
+
+.nav_top .nav_all .nav-link:hover {
+  color: #ff5c00;
+}
+
+.nav_top .nav_all .nav-link i {
+  font-size: 12px;
+}
+
+.nav_top .nav_all .dropdown-menu {
+  font-size: 13px;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  color: #2d2d2d;
+}
+
+.nav_top .nav_all .dropdown-menu .dropdown-item:hover {
+  color: #ff5c00;
+}
+
+.nav_middle .navbar-nav {
+  font-size: 14px;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.nav_middle .navbar-nav .nav_link {
+  color: #4f4f4f;
+  font-weight: 600;
+}
+
+.nav_middle .navbar-nav .nav_link:hover {
+  color: #ff5c00;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.nav_middle .navbar-nav .dropdown-menu {
+  font-size: 13px;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  color: #2d2d2d;
+}
+
+.nav_middle .navbar-nav .dropdown-menu .dropdown-item:hover {
+  color: #ff5c00;
+}
+
+.nav_inner {
+  font-size: 13px;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  color: #2d2d2d;
+}
+
+.nav_inner a {
+  text-decoration: none;
+  color: #2d2d2d;
+}
+
+.nav_inner a:hover {
+  color: #ff5c00;
+}
+
+.head {
+  color: #ff5c00;
+  font-size: 40px;
+  margin-right: 15px;
+}
+
+.header-bottom {
+  background-color: #ff5c00;
+  height: 58px;
+}
+
+.header-bottom .col_left {
+  text-align: left;
+}
+
+.header-bottom .icons {
+  background-color: #fff;
+  border-radius: 50%;
+  vertical-align: middle;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 8px;
+}
+
+.header-bottom .icons .icon-items {
+  color: #000;
+}
+
+.header-bottom .icons .icon-items i {
+  color: #545454;
+  font-size: 20px;
+  text-align: center;
+}
+
+.header-bottom .icons .icon-items i:hover {
+  color: #ff5c00;
+}
+
+@media only screen and (max-width: 700px) {
+  .nav_top {
+    display: none !important;
+  }
+  .header-bottom {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .nav_top {
+    display: none !important;
+  }
+  .header-bottom {
+    display: none !important;
+  }
+}
+
+.sec1 {
+  background-color: #f2f2f2;
+  height: auto;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+.sec1 .right_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sec1 .home-slider_item .text_slide1 {
+  position: absolute;
+  z-index: 5;
+  top: 30%;
+  left: 10%;
+}
+
+.sec1 .home-slider_item .text_slide1 .slide-title {
+  font-size: 2vw;
+  color: #3b3b3b;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.sec1 .home-slider_item .text_slide1 .description-title {
+  font-size: 3vw;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0 0 15px;
+  width: 350px;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+}
+
+.sec1 .home-slider_item .text_slide1 .see_more {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+  .sec1 {
+    max-width: 100% !important;
+    text-align: center;
+  }
+  .sec1 .right_item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+  .sec1 .right_item img {
+    max-width: 60% !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .right_item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+  .right_item .img {
+    max-width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

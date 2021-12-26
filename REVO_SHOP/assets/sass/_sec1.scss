@@ -1,0 +1,90 @@
+.sec1{
+    background-color: #f2f2f2;
+    height: auto;
+    margin-bottom: 20px;
+    max-width: 100%;
+
+    
+
+    .right_item{
+        display: flex;
+        flex-direction: column;
+        
+        
+        
+
+        
+    }
+
+    .home-slider_item{
+        
+
+        .text_slide1{
+            position: absolute;
+            z-index: 5;
+            top:30%;
+            left: 10%;
+
+            .slide-title{
+                font-size: 2vw;
+                color: #3b3b3b;
+                margin:0 0 10px;
+                text-transform: uppercase;
+                font-family:  'Raleway', Arial, Helvetica, sans-serif;
+                font-weight: 600;
+
+           
+            }
+            .description-title{
+                font-size: 3vw;
+                text-transform: uppercase;
+                color: #ffffff;
+                margin: 0 0 15px;
+                width: 350px;
+                font-family:  'Raleway', Arial, Helvetica, sans-serif;
+                font-weight: 600;
+                word-spacing: 3px;
+                letter-spacing: 2px;
+            }
+
+            .see_more{
+                font-size: 14px;
+                color: #ffffff;
+                font-family:  'Raleway', Arial, Helvetica, sans-serif;
+            }
+        }
+    } 
+  
+ 
+     
+    
+}
+
+@media only screen and (max-width: 700px)
+{
+    .sec1{
+        max-width: 100% !important;
+        text-align: center;
+.right_item{
+    display: flex;
+    flex-direction: row !important;
+    
+    img{
+        max-width: 60% !important;
+    }
+}
+    
+}
+}
+   
+@media only screen and (max-width: 900px)
+{
+    .right_item{
+        display: flex;
+        flex-direction: row !important;
+
+        .img{
+            max-width: 100%;
+        }
+    
+}}

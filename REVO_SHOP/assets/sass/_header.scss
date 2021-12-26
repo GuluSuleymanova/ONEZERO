@@ -1,0 +1,136 @@
+.nav_top{
+    background-color: #f2f2f2;
+    .free{
+        font-size: 13px;
+        font-family: 'Raleway', Arial, Helvetica, sans-serif;
+        color: #2d2d2d;
+        text-decoration: none;
+    }
+
+    .nav_all{
+        font-size: 13px;
+        font-family: 'Raleway', Arial, Helvetica, sans-serif;
+        
+        .nav-link{
+            color: #2d2d2d;
+            
+            &:hover{
+                color: #ff5c00;
+            }
+            i{ 
+                font-size: 12px;
+            }
+        } 
+        .dropdown-menu{
+            font-size: 13px;
+            font-family: 'Raleway', Arial, Helvetica, sans-serif;
+            color: #2d2d2d;
+            .dropdown-item{
+            &:hover{
+                color: #ff5c00;
+            }}
+        }  
+    }
+}
+.nav_middle{
+    .navbar-nav{
+        font-size: 14px;
+        font-family: 'Raleway', Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        .nav_link{
+            color: #4f4f4f;
+            font-weight: 600;
+            &:hover{
+                color: #ff5c00;
+                transition:  1s;
+            }
+        }
+        .dropdown-menu{
+            font-size: 13px;
+            font-family: 'Raleway', Arial, Helvetica, sans-serif;
+            color: #2d2d2d;
+            .dropdown-item{
+            &:hover{
+                color: #ff5c00;
+            }}}
+
+    }
+}.nav_inner{
+            font-size: 13px;
+            font-family: 'Raleway', Arial, Helvetica, sans-serif;
+            color: #2d2d2d;
+            a{
+              text-decoration: none;  
+              color: #2d2d2d;
+              &:hover{
+                  color: #ff5c00;
+              }
+            }
+            
+}
+.head{
+    color: #ff5c00;
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+
+.header-bottom{
+    background-color: #ff5c00;
+    height: 58px;
+
+    .col_left{
+        text-align: left;
+    }
+
+
+.icons{
+    
+    background-color: #fff;
+    border-radius: 50%;
+    vertical-align: middle;
+    align-items: center;
+    padding: 8px 8px;
+    
+
+    
+
+    .icon-items{
+        
+        color: #000;
+        
+
+        i{
+            color: #545454;
+            font-size: 20px;
+            text-align: center;
+
+            &:hover{
+                color: #ff5c00;
+            }
+            
+
+        }
+    }
+}
+
+}
+@media only screen and (max-width: 700px)
+{
+.nav_top{
+    display: none !important;
+}
+.header-bottom{
+       display: none !important;
+   } 
+}
+   
+@media only screen and (max-width: 900px)
+{
+.nav_top{
+    display: none !important;
+}
+.header-bottom{
+    display: none !important;
+} 
+}
