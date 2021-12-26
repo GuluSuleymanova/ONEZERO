@@ -1,0 +1,38 @@
+.sec2{
+    @include sec;
+ .text-about{
+    @include texts;
+    
+
+}
+.head{
+    @include heads;
+}
+.part1{
+    @include parts;
+}
+.btn-link{
+    color: #FFB951;
+    display: inline-block;
+    font-weight: 400;
+    position: relative;
+    text-decoration: none;
+    
+
+
+    &::before{
+    content: '';
+    background-color: #FFB951;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    right: -4rem;
+    width: 3rem;
+
+
+}
+    
+}
+
+
+}

@@ -1,0 +1,27 @@
+.logo{
+    background-color: transparent;
+    position: absolute;
+    z-index: 11;
+    width: 100%;
+
+.icons{
+    .icon-inner{
+        color:#fff;
+        font-size: 25px;
+        
+
+        &:hover{
+        color:#FFB951;
+    }
+    }
+}}
+
+@media only screen and ( max-width:600px){
+    .logo{
+        background-color: black;
+        position: absolute;
+        z-index: 11;
+        width: 100%;
+    }
+    
+}

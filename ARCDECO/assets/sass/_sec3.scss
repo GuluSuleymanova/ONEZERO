@@ -1,0 +1,33 @@
+.sec3{
+    @include sec;
+
+    .text-cases{
+        @include texts;
+    }
+
+    .head2{
+        @include heads;
+        @include size;
+    }
+
+    .part2{
+        @include parts;
+   
+    }
+
+
+ .owl-item.cloned{
+     width: 100%;
+     
+ 
+    .home-slider_item{
+        img{
+            width: 100% !important;
+            height: 627px !important;
+            object-position: center;
+            object-fit: cover;
+           
+        }}}
+    
+}
+

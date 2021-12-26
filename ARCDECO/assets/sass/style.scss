@@ -1,0 +1,29 @@
+@import 'variables';
+@import 'mixin';
+@import 'header';
+@import 'sec1';
+@import 'sec2';
+@import 'sec3';
+@import 'sec4';
+@import 'sec5';
+@import 'footer';
+
+.head{
+    background-color: #19191b;
+    &::before {
+        content: '';
+        background-image: url('/assets/imgs/angle.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: fixed;
+        pointer-events: none;
+        height: 2rem;
+        width: 2rem;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+    
+   
+    
+}

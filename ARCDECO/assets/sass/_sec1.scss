@@ -1,0 +1,202 @@
+.sec1{
+    background-image: url("../imgs/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    top: 0;
+    position: relative;
+
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 0;
+        background-color: rgba(25, 25, 27, 0.45);
+    }
+ .title__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    z-index: 10;
+
+    .title{
+        font-size: 79px;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.1;
+        font-weight: bold;
+        margin-bottom:6.5rem;
+    }
+  }
+    .note{
+        display: flex;
+        align-items: center;
+        background: #19191B;
+        padding: 3.5rem 3.125rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 40%;
+        z-index: 12;
+
+        &::before{
+            content: '';
+            background: #19191B;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            right: -4rem;
+            transform: skewX(25deg);
+            width: 100%;
+            z-index: -1;
+        }
+
+        .subtitle{
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 1.1;
+            margin-bottom: 16px;
+        }
+        .desc{
+            color: #C4C4C4;
+            font-size: 15px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            line-height: 1.9;
+            margin-bottom: 0;
+        }
+
+
+
+    }
+ .social{
+    display: flex;
+    position: absolute;
+    bottom: 3.125rem;
+    right: 3.125rem;
+    z-index: 2;
+    .social__link{
+        color: #C4C4C4;
+        display: inline-block;
+        font-size: 1.3rem;
+        margin-left: 18px;
+        font-family: "Poppins", sans-serif;
+        margin-right: 5px;
+        &:hover{
+            color:#FFB951;
+            transition: all 3s ease;
+        }
+    }
+ }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .title__header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        z-index: 10;
+    
+        .title{
+            font-size: 50px !important;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.1;
+            font-weight: bold;
+            text-align: center;
+            
+        }
+      }
+
+
+
+
+
+
+
+
+    .note{
+       display: none !important;
+    }
+
+       .social{
+           align-items: center !important;
+           justify-content: center !important;
+           display: flex !important;
+           position: absolute !important;
+           bottom: 1.5rem;
+           left: 0;
+           right: 0;
+    
+       }
+
+    
+    }
+  
+    @media only screen and (max-width: 600px) {
+
+        .title__header{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+            z-index: 10;
+        
+            .title{
+                font-size: 50px !important;
+                color: #fff;
+                font-family: 'Poppins', sans-serif;
+                line-height: 1.1;
+                font-weight: bold;
+                text-align: center;
+                
+            }
+          }
+    
+    
+    
+    
+    
+    
+    
+    
+        .note{
+           display: none !important;
+        }
+    
+           .social{
+               align-items: center !important;
+               justify-content: center !important;
+               display: flex !important;
+               position: absolute !important;
+               bottom: 1.5rem;
+               left: 0;
+               
+        
+           }
+    
+        
+        }
+ 
