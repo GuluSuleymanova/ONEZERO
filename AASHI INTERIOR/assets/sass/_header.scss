@@ -1,0 +1,51 @@
+.dropdown:hover .dropdown-menu {
+display: block;
+margin-top: 0; // remove the gap so it doesn't close
+}
+
+.header{
+background-color: #1b1b1b;
+
+.navbar-nav{
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+
+
+
+.nav-item{
+
+.nav-link{
+text-transform: uppercase;
+padding: 35px 15px;
+color: #8f8f8f !important;
+transition: all 0.45s ease-in-out;
+
+&:hover{
+color: #dca44b !important;
+transition: all 0.45s ease-in-out;
+}
+
+}
+
+}
+
+.dropdown-menu{
+font-size: 14px;
+background-color: #1b1b1b;
+
+.dropdown-item{
+padding: 10px 20px;
+color: #8f8f8f;
+transition: all 0.45s ease-in-out;
+
+&:hover{
+background-color: #dca44b;
+color: #fff;
+transition: all 0.45s ease-in-out;
+}
+}
+}
+
+}
+
+}
