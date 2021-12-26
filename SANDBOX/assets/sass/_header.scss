@@ -1,0 +1,91 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+    transition:  all 2s;
+ }
+
+
+
+.nav_in{
+    font-size: 15px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    a{
+        text-decoration: none;
+    }
+    .animation{
+        &:hover{
+        display: inline-block;
+        margin: 0 0.5rem;
+        
+        animation: shakeX; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s; /* don't forget to set a duration! */
+    }
+     }
+
+    i{
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+}
+
+.nav_on{
+    
+    .nav_link{
+    color: #343f52 !important;
+    font-size: 16px !important;
+    margin: 10px !important;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+
+    &:hover{
+        color:#3f78e0 !important;
+
+    }
+    &::after{
+        content: "";
+        color:#3f78e0;
+    }
+}
+.b_contact{
+    color:#fff;
+    font-size: 16px;
+    
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    width: 100px;
+    height: 40px;
+    border-radius:30px ;
+    margin-top: 10px;
+    &:hover{display: inline-block;
+        margin: 0 0.5rem;
+        transition: all 1s;
+        animation:slideInDown; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s; /* don't forget to set a duration! */
+        animation-delay: 1s;
+        
+    
+
+    }
+}
+
+
+}
+
+
+
+
+/*@media only screen and (max-width: 600px) {
+    .nav_bar {
+        display: block;
+        height: 100px;
+        color: red;
+
+
+
+
+    }
+
+
+
+}*/
