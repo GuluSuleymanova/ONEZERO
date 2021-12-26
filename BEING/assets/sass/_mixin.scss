@@ -1,0 +1,9 @@
+@mixin hovers {
+    text-decoration: underline;
+    text-decoration-color: #fee86d;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+    transition: all 1s ease-in-out;
+    background-color: #fff;
+    
+}

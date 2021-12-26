@@ -1,0 +1,29 @@
+.sec1owl{
+    .container{
+        .home-slider_item{
+            margin-left: auto;
+            margin-right: auto;
+    
+         
+        }
+    }
+}
+.owl-theme .owl-nav{
+                position: absolute !important;
+                top: 50% !important;
+
+                
+            }
+
+            .owl-next{
+                align-items: flex-end;
+                display: flex;
+                span{
+                    
+                    position: absolute;
+                    font-size: 50px;
+                    
+
+                
+                   }
+            }
